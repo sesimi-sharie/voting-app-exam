@@ -9,7 +9,7 @@ interface VotingOptionProps {
 const VotingOption: React.FC<VotingOptionProps> = ({ option, votes, onVote }) => {
     return (
         <div style={{ marginBottom: '10px' }}>
-            <h3>Candidate: {option}</h3>
+            <h3  style={{ textTransform: 'capitalize' }}>Candidate: {option}</h3>
             <p>Votes: {votes}</p>
             <button onClick={onVote}>Vote</button>
         </div>
