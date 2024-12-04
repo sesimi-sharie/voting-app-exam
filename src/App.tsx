@@ -7,9 +7,9 @@ import VotingOption from './components/VotingOption';
 // 2. Click Reset Votes
 // Can you ensure that all votes are reset to 0?
 
-// 3. Finally check all tests if they are still passing.
+// 3. Add percentages to voting options.
 
-// Enhancement: Add percentages to voting options.
+// 4. Finally check all tests if they are still passing.
 
 interface Votes {
     [key: string]: number;
